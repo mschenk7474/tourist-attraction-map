@@ -38,6 +38,51 @@ require([
             if (this.readyState == 4 && this.status == 200) {
                 var data = JSON.parse(this.responseText);
 
+                var cat_color 
+                var cat = data.category 
+
+                if (cat == "nature"){
+                    cat_color = [52, 168, 50] // green
+                }
+                else if (cat == "museum"){
+                    cat_color = [50, 54, 168] // blue
+                }
+                else if (cat == "amusement"){
+                    cat_color = [168, 78, 50] // red
+                }
+
+                var marker = {
+                    type: "simple-marker",
+                    style: "circle",
+                    color: cat_color
+                  }
+                var location = {
+                    type: "point",
+                    longitude: data.coordinates[0],
+                    latitude: data.coordinates[1]
+                }
+
+                var popup_attributes = {
+                    state: data.state,
+                    category: data.category
+                  }
+          
+                var popup_template = {
+                    title: "{attraction}",
+                    content: "<b>State</b>: {state}<br> <b>Category</b>: {category}"
+                }
+
+                
+                  var graphic = new Graphic({
+                    geometry: location,
+                    symbol: marker,
+                    attributes: popup_attributes,
+                    popupTemplate: popup_template
+                  })
+          
+                  graphicsLayer.add(graphic)
+
+
             }
 
             
