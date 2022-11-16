@@ -19,7 +19,7 @@
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
+* [JSON Data](https://github.com/mschenk7474/top-tourist-attraction-USA-states-json)
 * [Web Site Name](http://url.link.goes.here)
 
 # Future Work
