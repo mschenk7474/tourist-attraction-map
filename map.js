@@ -57,7 +57,7 @@ require([
                     color: cat_color
                   }
                 var location = {
-                    type: "point",
+                    // type: "point",
                     longitude: data.coordinates[0],
                     latitude: data.coordinates[1]
                 }
