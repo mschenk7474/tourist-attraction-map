@@ -23,7 +23,6 @@ require([
         });
 
 
-
         // Create a Graphics Layer which can be used to draw graphics
         // on the map
         var graphicsLayer = new GraphicsLayer();
