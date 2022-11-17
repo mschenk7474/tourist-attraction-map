@@ -58,8 +58,8 @@ require([
                     }
                     var location = {
                         type: "point",
-                        longitude: feature.coordinates[0],
-                        latitude: feature.coordinates[1]
+                        latitude: feature.coordinates[0],
+                        longitude: feature.coordinates[1]
                     }
 
                     var popup_attributes = {
