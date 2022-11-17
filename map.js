@@ -37,7 +37,7 @@ require([
         xmlhttp.onreadystatechange = function() {
             if (this.readyState == 4 && this.status == 200) {
                 var data = JSON.parse(this.responseText);
-                for (feature in data){
+                for (feature of data){
                     var cat_color 
                     var cat = feature.category 
 
