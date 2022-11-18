@@ -6,9 +6,8 @@ require([
     "esri/layers/FeatureLayer",
     "esri/widgets/Locate",
     "esri/widgets/Search",
-    "esri/widgets/Legend",
-    "escri/widgets/FeatureFilter"
-  ], function(Map, MapView, Graphic, GraphicsLayer, FeatureLayer, Locate, Search, Legend, FeatureFilter) {
+    "esri/widgets/Legend"
+  ], function(Map, MapView, Graphic, GraphicsLayer, FeatureLayer, Locate, Search, Legend) {
 
         // Create a basemap for the map view
         var myMap = new Map({
@@ -103,6 +102,5 @@ require([
         })
 
         myView.ui.add(search, "top-right")
-
         
   });
