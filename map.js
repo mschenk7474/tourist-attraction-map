@@ -41,13 +41,13 @@ require([
                     var cat_color 
                     var cat = feature.category 
 
-                    if (cat == "nature"){
+                    if (cat == "Nature"){
                         cat_color = [52, 168, 50] // green
                     }
-                    else if (cat == "museum"){
+                    else if (cat == "Museum"){
                         cat_color = [50, 54, 168] // blue
                     }
-                    else if (cat == "amusement"){
+                    else if (cat == "Amusement"){
                         cat_color = [168, 78, 50] // red
                     }
 
@@ -65,12 +65,13 @@ require([
                     var popup_attributes = {
                         state: feature.state,
                         category: feature.category,
-                        attraction: feature.attraction
+                        attraction: feature.attraction,
+                        image: feature.image
                     }
             
                     var popup_template = {
                         title: "{attraction}",
-                        content: "<b>State</b>: {state}<br> <b>Category</b>: {category}"
+                        content: "<b>State</b>: {state}<br> <b>Category</b>: {category}<br><b><img src = {image} style= width:128px;height:128px;/></b>",
                     }
 
                     
