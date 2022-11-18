@@ -11,7 +11,7 @@ require([
 
         // Create a basemap for the map view
         var myMap = new Map({
-            basemap: "gray-vector"
+            basemap: "streets-vector"
         });
 
         
@@ -20,7 +20,9 @@ require([
         // previously created.
         var myView = new MapView({
             container: "viewDiv",
-            map: myMap
+            map: myMap,
+            center: [-90,40],
+            zoom: 2.5
         });
 
 
@@ -94,4 +96,12 @@ require([
         xmlhttp.open("GET", "https://raw.githubusercontent.com/mschenk7474/top-tourist-attraction-USA-states-json/main/top-tourist-att-state.json", true);
         xmlhttp.send();
         myView.popup.defaultPopupTemplateEnabled = true;
+
+        var search = new Search ({
+            view: myView
+        })
+
+        myView.ui.add(search, "top-right")
+
+        
   });
