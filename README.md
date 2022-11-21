@@ -3,9 +3,7 @@ Have you ever traveled through a US State and thought "Man, this state is so bor
 
 How you use this map is simple. First, you go to the link section of this repository and see a link that looks something like this 'mschenk7474.github.io/tourist-attraction-map/'. I will add a link to the website [here](https://mschenk7474.github.io/tourist-attraction-map/) for your convenience. On this map, you will see 50 points for each of the 50 states. Each point has a corresponding color, which tells you if the top attraction for that state is either nature-based, amusement-based, or museum-based. When you click on a certain point, you will see that it is in the correct location, and you will have a nice little pop-up that tells and shows you some interesting things. Each of the pop-ups will tell you what category that pop-up belongs to, the name of the attraction, which state it resides in, and an image of the attraction.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/_CHGcm9CHVY)
 
 # Development Environment
 I used the following to create this web app:
