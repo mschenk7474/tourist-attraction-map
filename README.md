@@ -20,7 +20,9 @@
 
 {Make a list of websites that you found helpful in this project}
 * [JSON Data](https://github.com/mschenk7474/top-tourist-attraction-USA-states-json)
-* [Web Site Name](http://url.link.goes.here)
+* [GIS Mapping Workshop](https://replit.com/@MasonSchenk/CSE310GISMappingWorkshop#map.js)
+* [Displaying an ArcGIS Map in JavaScript and HTML](https://developers.arcgis.com/javascript/latest/display-a-map/)
+* [ArcGIS Maps and Views](https://developers.arcgis.com/javascript/latest/maps-and-views/)
 
 # Future Work
 
